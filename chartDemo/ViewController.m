@@ -43,6 +43,7 @@
     NSArray * data01Array = @[@600.1, @1600.1, @1260.4, @00.0, @1860.2, @1027.2, @1760.2];
     PNLineChartData *data01 = [PNLineChartData new];
     data01.dataTitle = @"Alpha";
+    //logs
     data01.color = PNFreshGreen;
     data01.alpha = 0.3f;
     data01.itemCount = data01Array.count;
